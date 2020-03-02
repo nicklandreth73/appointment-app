@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="956.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Outlines.ErrorFXMLController">
+  <children>
+    <Label fx:id="errorLabel" alignment="CENTER" layoutX="14.0" layoutY="22.0" prefHeight="86.0" prefWidth="928.0" text="SQL Error">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+    </Label>
+    <Button fx:id="okButton" layoutX="368.0" layoutY="126.0" mnemonicParsing="false" onAction="#okButtonClicked" prefHeight="35.0" prefWidth="220.0" text="OK" wrapText="true" />
+  </children>
+</AnchorPane>

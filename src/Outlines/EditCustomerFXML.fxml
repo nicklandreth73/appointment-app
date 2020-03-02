@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Outlines.EditCustomerFXMLController">
+  <children>
+    <TextField id="nameField" fx:id="oldNameField" layoutX="200.0" layoutY="79.0" prefWidth="200.0" />
+    <Label alignment="CENTER" layoutX="200.0" layoutY="26.0" prefHeight="31.0" prefWidth="200.0" text="Old Name" />
+    <TextField fx:id="addressField" layoutX="344.0" layoutY="178.0" prefWidth="200.0" />
+    <Label alignment="CENTER" layoutX="344.0" layoutY="125.0" prefHeight="31.0" prefWidth="200.0" text="New Address" />
+    <TextField fx:id="phoneField" layoutX="40.0" layoutY="258.0" prefWidth="200.0" />
+    <Label alignment="CENTER" layoutX="40.0" layoutY="216.0" prefHeight="31.0" prefWidth="200.0" text="New Phone Number" />
+    <Label alignment="CENTER" layoutX="344.0" layoutY="216.0" prefHeight="31.0" prefWidth="200.0" text="New Zip Code" />
+    <TextField fx:id="zipField" layoutX="344.0" layoutY="258.0" prefWidth="200.0" />
+    <Button fx:id="cancelButton" layoutX="216.0" layoutY="355.0" mnemonicParsing="false" onAction="#cancelButtonClicked" prefHeight="31.0" prefWidth="168.0" text="Cancel" />
+    <Button fx:id="submitButton" layoutX="216.0" layoutY="292.0" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="31.0" prefWidth="168.0" text="Submit" />
+    <TextField fx:id="newNameField" layoutX="40.0" layoutY="178.0" prefWidth="200.0" />
+    <Label alignment="CENTER" layoutX="40.0" layoutY="125.0" prefHeight="31.0" prefWidth="200.0" text="New Name" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="436.0" prefWidth="633.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Outlines.AddCustomerFXMLController">
+  <children>
+    <Button fx:id="addButton" layoutX="217.0" layoutY="342.0" mnemonicParsing="false" onAction="#addButtonClicked" prefHeight="35.0" prefWidth="200.0" text="Add Customer" />
+    <Label layoutX="33.0" layoutY="23.0" prefHeight="21.0" prefWidth="178.0" text="Customer Name*" />
+    <TextField fx:id="nameField" layoutX="33.0" layoutY="62.0" prefWidth="200.0" />
+    <Label layoutX="33.0" layoutY="96.0" prefHeight="21.000099999997474" prefWidth="178.0" text="Customer Phone Number*" />
+    <TextField id="phone" fx:id="phoneField" layoutX="33.0" layoutY="144.0" prefWidth="200.0" />
+    <Label layoutX="401.0" layoutY="23.0" prefHeight="21.000099999997474" prefWidth="178.0" text="Customer Address*" />
+    <TextField id="address" fx:id="addressField" layoutX="401.0" layoutY="62.0" prefWidth="200.0" />
+    <Label layoutX="401.0" layoutY="102.0" prefHeight="21.000099999997474" prefWidth="178.0" text="Customer City" />
+    <TextField id="city" fx:id="cityField" layoutX="401.0" layoutY="144.0" prefWidth="200.0" />
+    <Label layoutX="401.0" layoutY="196.0" prefHeight="21.000099999997474" prefWidth="178.0" text="Customer Zipcode" />
+    <TextField id="zip" fx:id="zipField" layoutX="401.0" layoutY="243.0" prefWidth="200.0" />
+    <Button fx:id="exitButton" layoutX="217.0" layoutY="387.0" mnemonicParsing="false" onAction="#exitButtonClicked" prefHeight="35.0" prefWidth="200.0" text="Exit/Cancel" />
+    <TextField id="phone" fx:id="countryField" layoutX="33.0" layoutY="243.0" prefWidth="200.0" />
+    <Label layoutX="33.0" layoutY="196.0" prefHeight="21.000099999997474" prefWidth="178.0" text="Customer Country" />
+    <Label alignment="CENTER" layoutX="241.0" layoutY="13.0" prefHeight="26.0" prefWidth="151.0" text="Fields with * are required" />
+  </children>
+</AnchorPane>

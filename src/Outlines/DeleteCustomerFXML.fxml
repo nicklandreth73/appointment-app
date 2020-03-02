@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="298.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Outlines.DeleteCustomerFXMLController">
+  <children>
+    <Label alignment="CENTER" layoutX="223.0" layoutY="20.0" prefHeight="32.0" prefWidth="154.0" text="Customer Name" />
+    <TextField id="customerName" fx:id="customerNameField" layoutX="200.0" layoutY="91.0" prefWidth="200.0" />
+    <Button fx:id="deleteButton" layoutX="210.0" layoutY="158.0" mnemonicParsing="false" onAction="#deleteButtonClicked" prefHeight="32.0" prefWidth="180.0" text="Delete" />
+    <Button fx:id="cancelButton" layoutX="210.0" layoutY="235.0" mnemonicParsing="false" onAction="#cancelButtonClicked" prefHeight="32.0" prefWidth="180.0" text="Cancel" />
+  </children>
+</AnchorPane>
